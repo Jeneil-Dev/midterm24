@@ -51,3 +51,20 @@ aesthetic presentation of your site.
 
 The project must be submitted as an entire site structure and must be
 submitted as one compressed folder. Review video if necessary.
+
+////
+
+Resources
+
+
+Fonts:
+https://elementor.com/blog/font-pairing/
+
+Google Fonts:
+Font Awesome:
+Fonts used in this project: 
+
+Gimp image:
+
+
+Color Pallet:
