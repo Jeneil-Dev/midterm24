@@ -1,0 +1,172 @@
+/* Google Fonts */
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 200 to 900
+.source-sans-3-<uniquifier> {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+/* Color Scheme */
+/* Smokey Green and Gray color scheme consisting of .scheme {
+    color: #78866B #A9BA9D,
+        #D0D9CD,
+        #B2BEB5,
+        #828E84,
+        #687169,
+} */
+
+body {
+    font-family: "Source Sans 3", sans-serif;
+    margin: 0;
+    padding: 0%;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+h1 {
+    color:#78866B;
+    text-shadow: 2px 2px 5px #A9BA9D;
+    margin-top: 0%;
+    position: absolute;
+    left: 25%;
+    top: 11%;
+    
+    font-weight: 550;
+    font-size: 10em;
+    font-style: italic;
+    text-align: center;
+}
+
+.bannerSpan {
+    font-size: 13em;
+    font-weight: 300;
+    color:#B2BEB5;
+}
+
+div.header {
+    background-image: url('/images/zooandcommunitybanner.webp');
+    background-size: cover;
+    height: 400px;
+    opacity: .5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid orange;
+}
+
+div.nav,
+div.footer {
+    margin-top: 2%;
+    height: 100px;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+a:visited,
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    padding: 1%;
+    width: 5%;
+    font-size: larger;
+}
+
+.navLinks:hover {
+    text-decoration: none;
+    border-bottom: 5px solid #687169;
+    opacity: .5;
+}
+
+div.container {
+    
+}
+
+div.narrative,
+div.aside {
+    margin-top: 1%;
+
+}
+
+div.narrative {
+    /* outline: 1px solid rgb(152, 53, 53); */
+    width: 60%;
+    float: left;
+    clear: both;
+    padding: 3%;
+    border-right: 2px solid black;
+}
+
+div.aside {
+    width: 20%;
+    float: right;
+    padding: 3%;
+   
+    
+}
+
+.asideImg {
+    height: 300px;
+    width: 300px;
+}
+
+.asideTitle {
+    font-weight: bold;
+    display: block;
+    padding: 5%;
+}
+
+h2 {
+    display: inline-block;
+    width: 100%;
+}
+
+div.featured {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 3%;
+    border-right: 2px solid black;
+
+}
+
+.featuretxt {
+    width: auto;
+    height: auto;
+    margin: 5%;
+    text-align: left;
+}
+
+.features {
+    border: 2px solid black;
+    margin: 2%;
+}
+
+.featureImages {
+    height: 150px;
+    width: 150px;
+    float: left;
+    text-wrap:wrap;
+    margin-right:1%;
+    
+}
+
+.aboutFeature {
+    font-weight: bold;
+    
+}
+
+div.footer {
+   border-top:2px solid #687169; 
+}
